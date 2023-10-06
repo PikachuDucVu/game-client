@@ -6,9 +6,14 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "cors": "^2.8.5",
+    "eiows": "^6.6.2",
+    "socket.io": "^4.7.2",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.4.0",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.4",
     "bun-types": "latest"
   },
   "module": "src/index.js"
